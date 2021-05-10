@@ -1,9 +1,4 @@
-
-// import React from 'react';
-// import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import firebase from 'firebase';
-// import 'firebase/auth';
-// import 'firebase/database';
 import 'firebase/storage';
 import 'firebase/firestore'
 
@@ -26,15 +21,3 @@ const projectFirestore = firebase.firestore();
 const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
 export { projectStorage, projectFirestore, timestamp };
-
-// export const firebaseui = {
-//     signInFlow: 'popup',
-//     signInOptions: [
-//         firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-//         firebase.auth.PhoneAuthProvider.PROVIDER_ID,
-//       ],
-//     };
-// firebase.initializeApp(config);
-
-
-// export default firebase;
